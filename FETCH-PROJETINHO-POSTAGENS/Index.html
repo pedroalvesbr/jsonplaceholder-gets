@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>GET POSTS</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    </head>
+    <body background="./imgFundo.jpg">
+        <div class="quadro">
+            <div class="container container_app">
+                <div>
+                    <img class="nomeApp" 
+                        src="logo.png">
+                    <div>
+                        <p class="descricaoApp1">
+                             buscar informações sobre postagens da API JSON PLACEHOLDER
+                        </p>
+                        <p class="descricaoApp2">
+                            Projetinho pra treinar os skills com o metodo FETCH e trabalhar com API 
+                            <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a>
+                        </p>
+                    </div>
+                    <div class="buscar">
+                        <p id="mensagemErro" class="msgErro"></p>
+                        <div class="input_div">
+                            <input class="input" type="text" placeholder="Digite o ID da postagem">
+                        </div>
+                        <button id="botao_buscar" class="buscarBt">Buscar</button>
+                    </div>
+                </div>
+            </div>    
+            <div class="container">
+                <div>
+                    <div class="informacoes_parte1">
+                        <h1 id="titulo" class="titulo"></h1>
+                        <p id="bodyPost" class="bodyPost"></p>
+                    </div>
+                    <div class="informacoes_parte2">
+                        <div class="detalhes">
+                            <p id="idPost" class=""></p>
+                            <p id="userID"class=""></p>
+                            <p class="valorAvaliacao"></p>
+                        </div>
+                        <p id="genero"class="nome"></p>
+                        <p id="atores"class="nome"></p>
+                        <p id="diretor"class="nome"></p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+        <script src="app.js"></script>
+    </body>
+</html>
